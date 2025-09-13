@@ -1,0 +1,7 @@
+name = "solar-dashboard-withapi"
+compatibility_date = "2025-05-31"
+pages_build_output_dir = "./dist"        # ← 新增這行
+
+[[kv_namespaces]]
+binding = "esp32"
+id = ""

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transition-all;
+  }
+  
+  .card-gradient {
+    @apply bg-gradient-to-br from-primary-500 to-secondary-600 text-white;
+  }
+  
+  .button-primary {
+    @apply px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-md transition-colors shadow-sm;
+  }
+  
+  .button-secondary {
+    @apply px-4 py-2 bg-white hover:bg-gray-100 text-gray-800 border border-gray-300 rounded-md transition-colors shadow-sm;
+  }
+  
+  .input {
+    @apply px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500;
+  }
+}
+

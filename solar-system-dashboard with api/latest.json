@@ -1,0 +1,15 @@
+{
+  "solar": {
+    "voltage": 12.5,
+    "current": 1.5,
+    "power":   18.8,
+    "status":  "Charging"
+  },
+  "system": { "voltage": 5.0, "current": 0.98, "power": 4.64, "capacity": 77 },
+  "tracking": { "enabled": false, "angleX": 90, "angleY": 45, "lightValues": [0,0,0,0] },
+  "environment": { "temperature": 27.3, "humidity": 51.2, "pressure": 1013.5, "altitude": 36 },
+  "timestamp": 375860,
+  "esp32_ip": "172.20.10.5",
+  "esp32_mac": "EC:E3:34:47:87:38",
+  "serverTimestamp": "2025-05-31T14:32:00+08:00"
+}
